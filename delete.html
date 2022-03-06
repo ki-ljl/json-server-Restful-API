@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delete</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="site.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <a href="index.html">返回主页</a>
+    <br><br><br>
+    <div id="container">
+        <script>
+            getinfo("box2");   //显示信息
+        </script>
+        <label for="id">请输入要删除数据的学号</label>
+        <input type="text" name="deleteforid" id="content"/>
+        <button id="delete" onclick="Delete()">删除</button>
+        <div style="margin-left: 500px;">
+            <table id="box2" class="tab1">
+                <tr id="tr2">
+                    <td>姓名</td>
+                    <td>学号</td>
+                    <td>年龄</td>
+                    <td>性别</td>
+                    <td>职业</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

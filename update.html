@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="site.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <a href="index.html">返回主页</a>
+    <div id="container">
+        <label for="tips">请先输入学号方便我们为你查询相关信息并显示在上面</label>
+        <div id="editor1">
+            <label for="nameup">姓名</label>
+            <input type="text" name="nameup" id="nameup" />
+        </div>
+        <div id="editor2">
+            <label for="numup">学号</label>
+            <input type="text" name="numup" id="numup" />
+        </div>
+        <div id="editor3">
+            <label for="ageup">年龄</label>
+            <input type="text" name="ageup" id="ageup" />
+        </div>
+        <div id="editor5">
+            <label for="occupation">职业</label>
+            <input type="text" name="occupationup" id="occupationup" />
+        </div>
+        <div id="editor4">
+            <label for="genderup">性别</label>
+            <input name="rdup" type="radio" value="男" id="1"/>男
+            &emsp;&emsp;&emsp;&emsp;&emsp13;&emsp;&emsp13;
+            <input name="rdup" type="radio" value="女" id="2"/>女
+        </div>
+        <button id="upquery" onclick="upquery()">查询数据</button>
+        <button id="update" onclick="update()">修改数据</button>
+    </div>
+</body>
+</html>

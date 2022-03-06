@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="site.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <a href="index.html">返回主页</a>
+    <div id="container">
+        <div style="float: left; margin-left: 350px;">
+            <div id="editor1" style="margin-bottom: 10px;">
+                <label for="name">姓名</label>
+                <input type="text" name="name" id="name" style="height: 30px;"/>
+            </div>
+            <div id="editor2" style="margin-bottom: 10px;">
+                <label for="num">学号</label>
+                <input type="text" name="num" id="num" style="height: 30px;"/>
+            </div>
+            <div id="editor3" style="margin-bottom: 10px;">
+                <label for="age">年龄</label>
+                <input type="text" name="age" id="age" style="height: 30px;"/>
+            </div>
+            <div id="editor5" style="margin-bottom: 10px;">
+                <label for="occupation">职业</label>
+                <select id="occupation" style="width: 165px; height: 30px;">
+                    <option value ="student">学生</option>
+                    <option value ="teacher">老师</option>
+                </select>
+            </div>
+            <div id="editor4" style="margin-bottom: 10px;">
+                <label for="gender">性别</label>
+                <input name="rd" type="radio" value="男" style="height: 30px;"/>男
+                &emsp;&emsp;&emsp;&emsp;&emsp13;&emsp;&emsp13;
+                <input name="rd" type="radio" value="女" style="height: 30px;"/>女
+            </div>
+            <button id="add" onclick="add()">添加数据</button>
+        </div>
+        <div style="float: left; margin-left: 350px;">
+            <div>
+                <table id="box1" class="tab">
+                    <tr id="tr2">
+                        <td>姓名</td>
+                        <td>学号</td>
+                        <td>年龄</td>
+                        <td>性别</td>
+                        <td>职业</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script>
+            getinfo("box1");
+        </script>
+    </div>
+</body>
+</html>

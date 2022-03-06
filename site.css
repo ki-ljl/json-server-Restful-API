@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1600px;
+    height: auto;
+    background-color: white;
+}
+
+.content {
+    width: 24%;
+    height: 30%;
+    margin-top: 300px;
+    text-align: center;
+    float: left;
+    border: 1px solid black;
+}
+
+#header {
+    height: 50px;
+    background-color: burlywood;
+    margin-bottom: 5px;
+}
+
+
+#indexbody {
+    background-image: url(figures/bg1.jpg);
+}
+audio {
+    display: none;
+}
+#topic1body {
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+#nav {
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: rgb(105, 237, 100);
+    text-align: center;
+}
+#search {
+    height: 25px;
+    background-color: floralwhite;
+}
+#main {
+    height: 880px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+#laside {
+    margin-top: 5px;
+    float: left;
+    height: 880px;
+    width: 20%;
+    background-color: wheat;
+}
+#maside {
+    margin-top: 5px;
+    float: left;
+    height: 880px;
+    width: 60%;
+    background-color:white;
+}
+#realtime {
+    height: 10%;
+    width: 100%;
+    border:1px solid #ccc;
+}
+.subreal {
+    height: 80%;
+    width: 24%;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+    border: 1px solid white;
+    float: left;
+}
+#dataint {
+    text-align: right;
+    float: left;
+    height: 2%;
+    width: 10;
+}
+#cue {
+    font: bold 10px '微软雅黑';
+    height: 25%;
+    width: 60%;
+    text-align: left;
+}
+.realtext {
+    text-align: center;
+    font: bold 20px '宋体';
+    position: relative;
+    color: darkolivegreen;
+}
+.realnum {
+    font: bold 30px '幼圆';
+    text-align: center;
+    color: red;
+}
+#map {
+    height: 70%;
+    width: 100%;
+    border: 1px solid gray;
+}
+#tophead1 {
+    height: 5%;
+    width: 100%;
+}
+#tophead2 {
+    height: 10%;
+    width: 100%;
+    border: 1px solid gray;
+}
+#realmap {
+    height: 80%;
+    width: 100%;
+    text-align: center;
+}
+#raside {
+    margin-top: 5px;
+    float: left;
+    height: 880px;
+    width: 20%;
+    background-color: white;
+}
+#bulletin {
+    border: 1px solid blue;
+    background-color: gray;
+    height: 100%;
+    text-align: center;
+}
+#adv {
+    height: 10%;
+    border: 1px solid black;
+}
+#server {
+    height: 15%;
+}
+.subserver {
+    height: 100%;
+    width: 19.78%;
+    float: left;
+    border: 1px solid black;
+}
+.subsearch {
+    width: 49.5%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
+.pserver {
+    text-align: center;
+    font-size: 15px;
+    font: outline;
+    color: darkred;
+    margin: 15px;
+}
+.blink {
+    font: bolder 15px black;
+}
+#servernum {
+    border: 1px solid blue;
+    background-color: white;
+    height: 20%;
+    width: 100%;
+}
+a {
+    font: bold 18px '幼圆';
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
+    font-size: 110%;
+}
+.navclass{ 
+    width: 12.5%;
+    height: 30px;
+    border:1px solid #ccc;
+    float: left;
+    box-sizing: border-box;
+}
+.navclasstext {
+    font: bold 18px '幼圆';
+}
+#footer {
+    height: 70px;
+    background-color: white;
+    margin-top: 5px;
+}
+.foottext {
+    font: bold 12px '宋体';
+    line-height: initial;  
+    text-align: center;
+}
+#imgsearch {
+    width: 35px;
+    height: 20px;
+    padding-left: 10px;
+}
+#imgfooter1 {
+    width: 100%;
+    height: 100%;
+}
+.imgfooter2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#fl {
+    float: left;
+    height: 100px;
+    width: 15%;
+}
+#fm {
+    background-color: whitesmoke;
+    height: 100px;
+    float: left;
+    width: 70%;
+}
+#fr {
+    width: 15%;
+    height: 100px;
+    background: url(figures/fr.jpg);
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    float: left;
+}
+#title {
+    font: icon 25px '幼圆';
+    text-align: center;
+}
+
+
+
+#bodytopic1 {
+    background-color:#d0e4fe;
+}
+#h1topic1 {
+    color:rgba(255, 103, 2, 0.932);
+    text-align:center;
+}
+#h2topic1 {
+    color:rgba(255, 103, 2, 0.932);
+    text-align:center;
+}
+.trs{
+    background-color: rgb(180, 241, 190);
+    width: 300px;
+    padding: 5px;
+    margin: auto;
+    height: 30px;
+    text-align: center;
+}
+.tablehead{
+    background-color: rgb(106, 187, 241);
+    width: 300px;
+    padding: 5px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+#tr1{
+    background-color: rgb(250, 49, 23);
+    width: 300px;
+    padding: 5px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+#tr2{
+    background-color: rgb(248, 168, 64);
+    width: 300px;
+    padding: 5px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+#tr3{
+    background-color: rgb(248, 236, 66);
+    width: 300px;
+    padding: 5px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+/*topic2 CSS布局*/
+#contenttopic2 {
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+#title2 {
+    height: 130px;
+    border: 1px solid bisque;
+}
+#main2 {
+    height: 1300px;
+    width: 1516px;
+    border: 1px solid black;
+}
+#laside2 {
+    float: left;
+    height: 1300px;
+    width: 377px;
+}
+#maside2 {
+    float: left;
+    height: 1300px;
+    width: 377px;
+    background-color:white;
+    border: 1px solid orange;
+}
+#raside2 {
+    float: left;
+    height: 1300px;
+    width: 377px;
+    background-color: white;
+    border: 1px solid black;
+}
+#rraside2 {
+    float: left;
+    height: 1300px;
+    width: 377px;
+    background-color: white;
+    border: 1px solid black;
+}
+.p1 {
+    font-size: 15px;
+    font-weight: inherit;
+    font-style: italic;
+}
+.p2 {
+    font: bold 12px '宋体';
+}
+.p3 {
+    font-size: 15px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.p4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}

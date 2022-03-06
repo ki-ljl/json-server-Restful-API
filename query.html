@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>query</title>
+    <script src="main.js"></script>
+    <script src="query.js"></script>
+    <link rel="stylesheet" href="site.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <a href="index.html">返回主页</a>
+    <div id="container">
+        <div>
+            <label for="queryname">按姓名查询</label>
+            <input type="text" id="queryname">
+            <button id="namequery" onclick="queryname()">查询</button>
+        </div>
+        <div>
+            <label for="queryid">按学号查询</label>
+            <input type="text" id="queryid">
+            <button id="idquery" onclick="queryid()">查询</button>
+        </div>
+        <div>
+            <label for="queryage">按年龄查询</label>
+            <input type="text" id="queryage">
+            <button id="agequery" onclick="queryage()">查询</button>
+        </div>
+        <div>
+            <label for="querygender">按性别查询</label>
+            <input type="text" id="querygender">
+            <button id="genderquery" onclick="querygender()">查询</button>
+        </div>
+        <div>
+            <label for="queryoccu">按职业查询</label>
+            <input type="text" id="queryoccupation">
+            <button id="occuquery" onclick="queryoccu()">查询</button>
+        </div>
+        <div>
+            <table id="box3" class="tab3">
+                
+            </table>
+        </div>
+    </div>
+</body>
+</html>
